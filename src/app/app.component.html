@@ -1,0 +1,19 @@
+<ul>
+  <li role="presentation"><a [routerLink]="['/combination-operators']">combination operators</a></li>
+  <li role="presentation"><a [routerLink]="['/filtering-operators']">filtering operators</a></li>
+  <li role="presentation"><a [routerLink]="['/transformation-operators']">transformation operators</a></li>
+  <li role="presentation"><a [routerLink]="['/utility-operators']">utility operators</a></li>
+</ul>
+
+<div>
+  <button id="subjectID">Start Button</button>
+  <button id="behaviourID">End Button</button>
+</div>
+
+<div>
+  <button (click)="subjectCall()">Subject</button>
+  <button (click)="behaviourCall()">Behaviour Subject</button>
+</div>
+
+
+<router-outlet></router-outlet>
